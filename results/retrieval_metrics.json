@@ -1,0 +1,20 @@
+{
+  "dataset_split": "FinQA dev.json",
+  "questions": 883,
+  "gold_evidence_items": 1513,
+  "gold_ids_reconstructed": 1509,
+  "retrieval_method": "hybrid TF-IDF: 70% word (1-2 grams) + 30% character (3-5 grams)",
+  "mrr": 0.778912,
+  "hit_rate_at_k": {
+    "1": 0.673839,
+    "3": 0.861835,
+    "5": 0.917327,
+    "10": 0.95923
+  },
+  "mean_gold_evidence_recall_at_k": {
+    "1": 0.489639,
+    "3": 0.720883,
+    "5": 0.820277,
+    "10": 0.916243
+  }
+}
